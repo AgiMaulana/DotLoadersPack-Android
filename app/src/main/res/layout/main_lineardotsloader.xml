@@ -76,7 +76,7 @@
 <!--        app:loader_animDur="100"-->
 <!--        app:loader_selectedColor="@color/purple_selected" />-->
 
-    <com.agrawalsuneet.dotsloader.loaders.LazyLoader
+    <com.agrawalsuneet.dotsloader.loaders.BallPulseProgressBar
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:lazyloader_dotsRadius="4dp"

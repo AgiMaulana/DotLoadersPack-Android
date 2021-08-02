@@ -17,7 +17,7 @@ import com.agrawalsuneet.dotsloader.basicviews.ThreeDotsBaseView
 /**
  * Created by ballu on 13/08/17.
  */
-class LazyLoader : ThreeDotsBaseView {
+class BallPulseProgressBar : ThreeDotsBaseView {
 
     var firstDelayDuration: Int = 100
     var secondDelayDuration: Int = 200

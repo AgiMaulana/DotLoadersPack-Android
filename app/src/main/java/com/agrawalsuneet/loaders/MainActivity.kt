@@ -5,7 +5,7 @@ import android.support.v4.content.ContextCompat
 import android.support.v7.app.AppCompatActivity
 import android.view.animation.DecelerateInterpolator
 import android.widget.LinearLayout
-import com.agrawalsuneet.dotsloader.loaders.LazyLoader
+import com.agrawalsuneet.dotsloader.loaders.BallPulseProgressBar
 
 class MainActivity : AppCompatActivity() {
 
@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initLazyLoader() {
-        val lazyLoader = LazyLoader(this, 15, 5,
+        val lazyLoader = BallPulseProgressBar(this, 15, 5,
                 ContextCompat.getColor(this, R.color.loader_selected),
                 ContextCompat.getColor(this, R.color.loader_selected),
                 ContextCompat.getColor(this, R.color.loader_selected))
